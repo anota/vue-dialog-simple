@@ -53,7 +53,7 @@ export default {
   z-index: 9;
   height: 100%;
   width: 100%;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(0, 0, 0, 0.8)
 }
 .loading .flex {
   height: 100%;
