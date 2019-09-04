@@ -78,9 +78,16 @@ export default {
   justify-content: center;
 }
 .loading i {
+  background: rgba(0, 0, 0, 0.8);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "PingFang SC", "Source Han Sans CN", "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial,
+    "Liberation Sans" !important;
   font-style: normal;
   font-weight: normal;
-  background: rgba(40, 40, 40, 0.72);
   line-height: 1.6;
   max-width: 70%;
   min-width:80px;
@@ -89,7 +96,6 @@ export default {
   padding: 8px 24px;
   text-align: center;
   margin-top:-50px;
-  text-shadow: 2px 2px 1px #000;
   border-radius: 4px;
 }
 .slide-enter-active,
