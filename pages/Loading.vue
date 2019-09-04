@@ -53,7 +53,7 @@ export default {
   z-index: 9;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.8)
+  background: rgba(255, 255, 255, 0);
 }
 .loading .flex {
   height: 100%;
@@ -67,7 +67,7 @@ export default {
   display: inline-block;
   text-align: center;
   color: #fff;
-  background: rgba(40, 40, 40, 0.72);
+  background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
   font-size: 14px;
 }
