@@ -3,7 +3,7 @@
     <transition name="slide">
       <div class="wrap" v-show="show">
         <div class="loading flex">
-          <i>{{text}}</i>
+          <i v-html="text"></i>
         </div>
       </div>
     </transition>
